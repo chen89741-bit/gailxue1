@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>扫码点餐 MVP</title>
+    <link rel="stylesheet" href="./shared/styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="topbar">
+        <div>
+          <p class="brand">Frontend Mock MVP</p>
+          <h1>扫码点餐前端原型</h1>
+          <p class="hint">当前版本只用 mock data 和 localStorage，不连接数据库、不加支付、不加登录。</p>
+        </div>
+      </header>
+
+      <section class="cards">
+        <article class="card">
+          <h2>客人点餐</h2>
+          <p class="hint">模拟 QR code 打开客人点餐页，并自动读取桌号。</p>
+          <a class="button" href="./customer-order/index.html?table=3">打开 3 号桌点餐</a>
+        </article>
+
+        <article class="card">
+          <h2>购物车</h2>
+          <p class="hint">查看已点菜品，修改数量和备注，然后提交 mock 订单。</p>
+          <a class="button" href="./cart/index.html">打开购物车</a>
+        </article>
+
+        <article class="card">
+          <h2>订单后台</h2>
+          <p class="hint">老板查看桌号、菜品、数量、备注、总价和状态。</p>
+          <a class="button" href="./admin/orders/index.html">打开订单后台</a>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
